@@ -18,7 +18,10 @@ public class UserController {
     public UserController(UserService userService) {
         this.userService = userService;
     }
-
+    @GetMapping(path = "/")
+    public ResponseEntity<String> indexPage() {
+        return new ResponseEntity<String>("hello world",HttpStatus.OK);
+    }
     @GetMapping(path = "/by-city")
     public List<Person> getUsersByCity(@RequestParam(value = "city") String city) {
         return userService.findByCity(city);

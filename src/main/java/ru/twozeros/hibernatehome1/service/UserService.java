@@ -1,11 +1,12 @@
 package ru.twozeros.hibernatehome1.service;
 
-import jakarta.persistence.EntityNotFoundException;
+
 import org.springframework.stereotype.Service;
 import ru.twozeros.hibernatehome1.entity.Person;
 import ru.twozeros.hibernatehome1.entity.UserKey;
 import ru.twozeros.hibernatehome1.repository.UserRepository;
 
+import javax.persistence.EntityNotFoundException;
 import java.util.List;
 import java.util.Optional;
 

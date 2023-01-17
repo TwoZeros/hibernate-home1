@@ -1,15 +1,12 @@
 package ru.twozeros.hibernatehome1.repository;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
-import org.apache.catalina.User;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 import ru.twozeros.hibernatehome1.entity.Person;
 import ru.twozeros.hibernatehome1.entity.UserKey;
 
 import java.util.List;
-import java.util.Locale;
 import java.util.Optional;
 
 @Service

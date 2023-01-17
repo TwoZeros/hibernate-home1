@@ -1,8 +1,9 @@
 package ru.twozeros.hibernatehome1.entity;
 
-import jakarta.persistence.Embeddable;
+
 import lombok.Data;
 
+import javax.persistence.Embeddable;
 import java.io.Serializable;
 
 @Embeddable

@@ -1,7 +1,11 @@
 package ru.twozeros.hibernatehome1.entity;
 
-import jakarta.persistence.*;
 import lombok.Data;
+
+
+import javax.persistence.EmbeddedId;
+import javax.persistence.Entity;
+
 @Data
 @Entity
 public class Person {
